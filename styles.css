@@ -1,7 +1,7 @@
 /*-------------------MOBILE LAYOUT------------------*/
 @media (min-width: 320px) {
 
-
+font-family: 'Niramit', sans-serif;
 }
 
 
@@ -25,5 +25,5 @@
 /*-------------------DESKTOP LAYOUT------------------*/
   @media (min-width: 768px) {
 
-
+font-family: 'Quicksand', sans-serif;
   }
