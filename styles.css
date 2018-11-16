@@ -1,7 +1,14 @@
 /*-------------------MOBILE LAYOUT------------------*/
 @media (min-width: 320px) {
 
+/*-----GENERAL STYLING-----*/
 font-family: 'Niramit', sans-serif;
+
+/*-----HEADER STYLING-----*/
+.banner {
+  text-align: center;
+  background-color: blue;
+}
 }
 
 
@@ -26,4 +33,6 @@ font-family: 'Niramit', sans-serif;
   @media (min-width: 768px) {
 
 font-family: 'Quicksand', sans-serif;
+
+
   }
