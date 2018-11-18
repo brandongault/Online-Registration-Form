@@ -7,34 +7,34 @@
   <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
-  <link rel="stylesheet" href="techdegree-project-3/styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <header>
     <h1 class="banner">THE CODE REVIEW</h1>
       <h2>Signup for our newsletter</h2>
-        <p>Get the latest news on how your code is doing right in your inbox</p>
+        <p class="topborder">Get the latest news on how your code is doing right in your inbox</p><hr>
   </header>
     <div class="row-content">
       <form action="index.html" method="post">
         <fieldset class="contact">
-          <legend>Contact Information</legend>
+          <legend class="formtitle">Contact Information</legend>
             <div class="input-group">
-              <label for="name">Full Name</label>
-                <input type="text" id="name" name="user_name" placeholder="required" minlength="2"><br>
+              <label for="name">Full Name</label><br>
+                <input type="text" id="name" name="user_name" placeholder="required" minlength="2">
 
-              <label for="email">Email Address</label>
-                <input type="email" id="email" name="user_email" placeholder="required" minlength="2"><br>
+              <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="user_email" placeholder="required" minlength="2">
 
-              <label for="number">Phone Number</label>
-                <input type="tel" id="number" name="user_number" placeholder="optional"><br>
+              <label for="number">Phone Number</label><br>
+                <input type="tel" id="number" name="user_number" placeholder="optional">
 
-              <label for="address">Street Address</label>
-                <input type="text" id="address" name="user_address" placeholder="optional"><br>
+              <label for="address">Street Address</label><br>
+                <input type="text" id="address" name="user_address" placeholder="optional">
 
-              <label for="city">City</label>
-                <input type="text" id="city" name="user_city" placeholder="optional"><br>
+              <label for="city">City</label><br>
+                <input type="text" id="city" name="user_city" placeholder="optional">
 
               <label for="state">State</label>
                 <select type="text" id="state" name="user_state" placeholder="optional">
@@ -126,16 +126,16 @@
                     <option value="west_virginia">West Virginia</option>
                     <option value="wisconsin">Wisconsin</option>
                     <option value="wyoming">Wyoming</option>
-                  </optgroup><br></select><br>
+                  </optgroup></select>
 
               <label for="zip">Zip Code</label>
                 <input type="text" id="zip" name="user_zip" placeholder="optional">
             </div>
         </fieldset>
-
+          <hr>
         <fieldset class="newsletter">
-          <legend>Newsletter</legend>
-            <p>Select the newsletters you would like to receive</p>
+          <legend class="formtitle">Newsletter</legend>
+            <p class="newsletterinfo">Select the newsletters you would like to receive</p>
               <div class="input-group">
                 <label>HTML News</label>
                   <input type="checkbox" id="html" value="html" name="checkbox"><br>
@@ -145,7 +145,7 @@
                   <input type="checkbox" id="javascript" value="javascript" name="checkbox">
               </div>
 
-            <p>Newsletter format</p>
+            <p class="newsletterinfo">Newsletter format</p>
               <div class="input-group">
                 <label>HTML</label>
                     <input type="radio" id="html_letter" value="html_letter" name="radio"><br>
@@ -155,7 +155,7 @@
                     <input type="radio" id="plain_letter" value="plain_letter" name="radio">
                   </div>
 
-                <p>Other topics you'd like to hear about</p>
+                <p class="newsletterinfo">Other topics you'd like to hear about</p>
                 <textarea id="comment" name="comment" rows="8"></textarea>
 
               <button type="submit">Sign Up</button>

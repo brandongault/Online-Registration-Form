@@ -1,19 +1,116 @@
-/*-------------------MOBILE LAYOUT------------------*/
-@media (min-width: 320px) {
-
 /*-----GENERAL STYLING-----*/
-font-family: 'Niramit', sans-serif;
+* {font-family: 'Niramit', sans-serif;
+}
 
 /*-----HEADER STYLING-----*/
 .banner {
   text-align: center;
-  background-color: blue;
+  font-size: 24px;
+  color: white;
+  background-color: rgb(13, 31, 126);
+  margin: -8px;
+  padding: 8px;
 }
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
+p {
+  text-align: center;
+  font-size: 14px;
+  color: rgb(198, 195, 195);
+}
 
+.topborder {
+  border-bottom: solid black 3px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin: 0;
+  padding-bottom: 25px;
+}
 
+hr {
+  margin-top: -10px;
+  border: solid black .8px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
+/*-----CONTACT INFO STYLING-----*/
+fieldset {
+  border: none;
+}
+
+fieldset .contact {
+  padding: none;
+  margin: none;
+}
+
+.formtitle {
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 15px;
+}
+
+input {
+  border: none;
+  display: block;
+  background-color: rgb(232, 232, 232);
+  border-radius: 3px;
+  width: 98%;
+  height: 40px;
+}
+
+::-webkit-input-placeholder {
+  text-align: right;
+  padding-right: 20px;
+}
+
+select {
+  border: none;
+  background-color: rgb(232, 232, 232);
+  border-radius: 3px;
+  display: block;
+  height: 40px;
+  width: 98%;
+  color: rgb(144, 143, 143);
+}
+
+label {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+#zip {
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+/*-----NEWSLETTER STYLING-----*/
+
+.radio {
+  font-size: 18px;
+}
+
+.newsletterinfo {
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(59, 58, 60)
+}
+
+.input-group {
+  font-size: 3px;
+}
+
+.checkbox {
+  font-size: 5px;
+  margin: 0;
+}
 
 
 
