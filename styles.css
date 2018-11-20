@@ -82,7 +82,9 @@ select {
 
 label {
   font-size: 14px;
+  display: inline-block;
   padding-bottom: 0px;
+  color: rgba(70, 70, 70, 0.73);
 }
 
 #zip {
@@ -100,7 +102,7 @@ label {
   text-align: left;
   font-size: 14px;
   font-weight: 500;
-  color: rgb(59, 58, 60)
+  color: rgba(70, 70, 70, 0.73);
 }
 
 #html {
@@ -153,9 +155,18 @@ button {
   font-size: 18px;
 }
 
+.newsletter1 {
+  display: block;
+}
+
+.newsletter2 {
+  display: block;
+}
+
 .footer {
   font-style: italic;
 }
+
 
 }
 
