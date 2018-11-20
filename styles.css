@@ -1,4 +1,4 @@
-/*-----GENERAL STYLING-----*/
+ /*-----GENERAL STYLING-----*/
 * {font-family: 'Niramit', sans-serif;
 }
 
@@ -82,7 +82,7 @@ select {
 
 label {
   font-size: 14px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 #zip {
@@ -103,8 +103,58 @@ label {
   color: rgb(59, 58, 60)
 }
 
-.input-group {
+#html {
   width: 15px;
+  height: 15px;
+  margin: 0;
+}
+
+#css {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+}
+
+#javascript {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+}
+
+#html_letter {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+}
+
+#plain_letter {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+}
+
+textarea {
+  width: 100%;
+  height: 80px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(232, 232, 232);
+}
+
+button {
+  background-color: rgb(5, 175, 21);
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 18px;
+}
+
+.footer {
+  font-style: italic;
 }
 
 }
