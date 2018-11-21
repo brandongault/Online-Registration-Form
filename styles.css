@@ -155,12 +155,11 @@ button {
   font-size: 18px;
 }
 
-.newsletter1 {
-  display: block;
-}
-
-.newsletter2 {
-  display: block;
+.newsletter input {
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  display: inline-block;
 }
 
 .footer {
