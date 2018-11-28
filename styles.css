@@ -45,11 +45,6 @@ fieldset {
   border: none;
 }
 
-fieldset .contact {
-  padding: none;
-  margin: none;
-}
-
 .formtitle {
   font-size: 18px;
   font-weight: 600;
@@ -105,36 +100,6 @@ label {
   color: rgba(70, 70, 70, 0.73);
 }
 
-#html {
-  width: 15px;
-  height: 15px;
-  margin: 0;
-}
-
-#css {
-  width: 15px;
-  height: 15px;
-  margin: 0;
-}
-
-#javascript {
-  width: 15px;
-  height: 15px;
-  margin: 0;
-}
-
-#html_letter {
-  width: 15px;
-  height: 15px;
-  margin: 0;
-}
-
-#plain_letter {
-  width: 15px;
-  height: 15px;
-  margin: 0;
-}
-
 textarea {
   width: 100%;
   height: 80px;
@@ -166,28 +131,16 @@ button {
   font-style: italic;
 }
 
-
+input:focus {
+    background-color: rgba(87, 246, 114, 0.78)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+radio:focus {
+    background-color: rgba(28, 145, 232, 0.88);
+}
 
 /*-------------------DESKTOP LAYOUT------------------*/
   @media (min-width: 768px) {
-
-font-family: 'Quicksand', sans-serif;
-
+    font-family: 'Quicksand', sans-serif;
 
   }
