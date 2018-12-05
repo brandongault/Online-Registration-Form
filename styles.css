@@ -145,6 +145,12 @@ radio:focus {
     font-family: 'Quicksand', sans-serif;
     }
 
+    h1.banner {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      margin-bottom: 55px;
+    }
+
     h2,
     p.topborder,
     fieldset.contact,
@@ -153,10 +159,25 @@ radio:focus {
       padding-right: 25%;
     }
 
+    h2 {
+      font-size: 35px;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
+    fieldset.contact {
+
+    }
+
     button {
       margin-top: 20px;
     }
 
+    p.topborder {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: 15px;
+    }
 
 
 
