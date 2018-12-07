@@ -7,7 +7,7 @@
   text-align: center;
   font-size: 24px;
   color: white;
-  background-color: rgb(13, 31, 126);
+  background-color: rgb(3, 11, 70);
   margin: -8px;
   padding: 8px;
 }
@@ -139,6 +139,21 @@ radio:focus {
     background-color: rgba(28, 145, 232, 0.88);
 }
 
+input:focus,
+textarea:focus {
+  background-color: rgb(255, 177, 3);
+}
+
+input:hover,
+textarea:hover {
+  background-color: rgba(36, 66, 140, 0.76);
+}
+
+input:active,
+textarea:active {
+  background-color: rgba(255, 252, 0, 1);
+}
+
 /*-------------------DESKTOP LAYOUT------------------*/
   @media (min-width: 768px) {
     * {
@@ -149,6 +164,7 @@ radio:focus {
       padding-top: 25px;
       padding-bottom: 25px;
       margin-bottom: 55px;
+      background-color: rgb(3, 11, 70);
     }
 
     h2,
@@ -165,9 +181,26 @@ radio:focus {
       padding-left: 30px;
     }
 
-    fieldset.contact {
+    label {
+      display: inline-block;
+      width: 30%;
+      margin-bottom: 25px;
+      }
 
+    #state {
+      display: inline-block;
+      margin-bottom: 10px;
+      width: 60%;
     }
+
+    #zip {
+      width: 25%;
+    }
+
+    input {
+      display: inline-block;
+      width: 60%;
+      }
 
     button {
       margin-top: 20px;
@@ -179,7 +212,20 @@ radio:focus {
       margin-bottom: 15px;
     }
 
+    input:focus,
+    textarea:focus {
+      background-color: rgb(255, 177, 3);
+    }
 
+    input:hover,
+    textarea:hover {
+      background-color: rgba(36, 66, 140, 0.76);
+    }
+
+    input:active,
+    textarea:active {
+      background-color: rgba(255, 252, 0, 1);
+    }
 
 
   }
